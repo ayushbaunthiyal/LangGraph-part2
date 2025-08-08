@@ -1,0 +1,18 @@
+# Core LangGraph with LangChain integration
+langgraph[langchain]==0.6.4
+
+# LangChain core packages
+langchain==0.2.15
+langchain-openai==0.1.7
+langchain-community==0.2.5
+
+# Development / Notebook support
+ipython==8.26.0
+python-dotenv==1.0.1
+
+# Vector DB & integrations
+chromadb==0.5.5
+langchain-chroma==0.1.2
+
+# Typing helpers (only needed for older Pythons, but harmless)
+typing-extensions==4.12.2
