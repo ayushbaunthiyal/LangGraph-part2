@@ -22,7 +22,7 @@ embeddings = OpenAIEmbeddings(
 )
 
 
-pdf_path = "Stock_Market_Performance_2024.pdf"
+pdf_path = "E:\code\mygit\LangGraph-part2\Agents\Stock_Market_Performance_2024.pdf"
 
 
 # Safety measure I have put for debugging purposes :)
@@ -48,7 +48,7 @@ text_splitter = RecursiveCharacterTextSplitter(
 
 pages_split = text_splitter.split_documents(pages) # We now apply this to our pages
 
-persist_directory = r"C:\Vaibhav\LangGraph_Book\LangGraphCourse\Agents"
+persist_directory = r"E:\code\mygit\LangGraph-part2\Agents"
 collection_name = "stock_market"
 
 # If our collection does not exist in the directory, we create using the os command
